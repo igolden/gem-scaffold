@@ -14,7 +14,7 @@ class Scaffold
 
     command :download_whitepapers do |c|
       c.syntax = 'scaffold download_whitepapers [options]'
-      c.summary = ''
+      c.summary = 'Downloading the whitepapers'
       c.description = ''
       c.example 'description', 'command example'
       c.option '--some-switch', 'Some switch that does something'
@@ -25,7 +25,7 @@ class Scaffold
 
     command :flashcard do |c|
       c.syntax = 'scaffold flashcard [options]'
-      c.summary = ''
+      c.summary = 'Flashcards'
       c.description = ''
       c.example 'description', 'command example'
       c.option '--some-switch', 'Some switch that does something'

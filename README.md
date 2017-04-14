@@ -1,7 +1,7 @@
 My Gem Scaffold
 ===
 
-Gem scaffold for my own **damn** self.
+Opinionated gem scaffold for rapid gemming.
 
 ### Why? 
 
