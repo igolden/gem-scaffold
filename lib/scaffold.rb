@@ -3,14 +3,14 @@
 require 'rubygems'
 require 'commander'
 
-class Scaffole
+class Scaffold
   include Commander::Methods
   # include whatever modules you need
 
   def run
     program :name, 'scaffold'
-i    program :version, '0.0.1'
-    program :description, ''
+    program :version, '0.0.1'
+    program :description, 'Hello world'
 
     command :download_whitepapers do |c|
       c.syntax = 'scaffold download_whitepapers [options]'
