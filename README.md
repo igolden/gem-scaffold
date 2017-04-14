@@ -1,7 +1,7 @@
 My Gem Scaffold
 ===
 
-Gem scaffold for my own **damn** self, aka @iosgolden.
+Gem scaffold for my own **damn** self.
 
 ### Why? 
 
