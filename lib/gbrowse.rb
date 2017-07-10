@@ -38,4 +38,4 @@ class Gbrowse
   end
 end
 
-Scaffold.new.run if $0 == __FILE__
+Gbrowse.new.run if $0 == __FILE__
