@@ -8,29 +8,19 @@ class Gbrowse
   # include whatever modules you need
 
   def run
-    program :name, 'scaffold'
+    program :name, 'Gbrowse'
     program :version, '0.0.1'
-    program :description, 'Hello world'
+    program :description, 'Command line wrapper for viewing search results in the terminal.'
+    default_command :search
 
-    command :download_whitepapers do |c|
-      c.syntax = 'scaffold download_whitepapers [options]'
-      c.summary = 'Downloading the whitepapers'
+    command :search do |c|
+      c.syntax = 'gbrowse search [query]'
+      c.summary = 'Search google'
       c.description = ''
       c.example 'description', 'command example'
       c.option '--some-switch', 'Some switch that does something'
       c.action do |args, options|
-        p "DOWNLOADING"
-      end
-    end
-
-    command :flashcard do |c|
-      c.syntax = 'scaffold flashcard [options]'
-      c.summary = 'Flashcards'
-      c.description = ''
-      c.example 'description', 'command example'
-      c.option '--some-switch', 'Some switch that does something'
-      c.action do |args, options|
-        p "HELLO MAMA"
+        system "links 'google.com/search?q=hello+world'"
       end
     end
 
