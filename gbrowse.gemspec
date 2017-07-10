@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'scaffold/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "scaffold"
-  spec.version       = Scaffold::VERSION
+  spec.name          = "gbrowse"
+  spec.version       = Gbrowse::VERSION
   spec.authors       = ["Ian Golden"]
   spec.email         = ["ian@iangolden.com"]
 
-  spec.summary       = "Hello World" 
-  spec.description   = "Hello World" 
+  spec.summary       = "Wrapper for viewing Google search results in the terminal." 
+  spec.description   = "Wrapper for viewing Google search results in the terminal." 
   spec.homepage      = "https://google.com"
   spec.license       = "MIT"
 
