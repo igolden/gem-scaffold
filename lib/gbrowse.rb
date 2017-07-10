@@ -3,7 +3,7 @@
 require 'rubygems'
 require 'commander'
 
-class Scaffold
+class Gbrowse
   include Commander::Methods
   # include whatever modules you need
 
